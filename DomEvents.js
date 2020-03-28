@@ -1,3 +1,13 @@
+
+var _ = require('lodash');
+
+var arrayAnimals =['ape','cat','dog','fish','snek','lizard']
+//console.log(_);
+console.log(_.without(arrayAnimals,'fish'));
+
+
+
+
 var input =document.getElementById("userinput");
 var button =document.getElementById("enter");
 var ul  =document.querySelector("ul");

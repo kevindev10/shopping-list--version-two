@@ -4,7 +4,7 @@
   "description": "SHOPPING LIST  WE GO AGAIN",
   "main": "DomEvents.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "isokay": "browserify DomEvents.js > bundle.js && live-server "
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,7 @@
     "url": "https://github.com/kevindev10/shopping-list--version-two/issues"
   },
   "homepage": "https://github.com/kevindev10/shopping-list--version-two#readme",
-  "dependencies": {}
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
 }
